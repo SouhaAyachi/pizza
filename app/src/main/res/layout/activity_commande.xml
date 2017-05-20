@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/images"
+    tools:context="android.if4.fst.ayabessmellah.Commande">
+
+
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+
+
+
+        <CheckBox
+
+            android:id="@+id/pizza1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Margherita : Mini " />
+
+        <CheckBox
+
+            android:id="@+id/pizza2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Margherita  : Moyenne " />
+
+        <CheckBox
+
+            android:id="@+id/pizza3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Margherita : Maxi" />
+
+
+
+        <CheckBox
+            android:id="@+id/pizza5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Végétarienne: Mini " />
+
+        <CheckBox
+            android:id="@+id/pizza6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Végétarienne: Moyenne " />
+
+
+        <CheckBox
+            android:id="@+id/pizza7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Végétarienne : Maxi " />
+
+        <CheckBox
+            android:id="@+id/pizza9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neptune : Mini " />
+
+        <CheckBox
+            android:id="@+id/pizza10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neptune : Moyenne " />
+
+        <CheckBox
+            android:id="@+id/pizza11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neptune : Maxi " />
+
+
+        <Button
+            android:id="@+id/Envoyer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Envoyer" />
+
+
+        <Button
+            android:id="@+id/Quitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quitter" />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
